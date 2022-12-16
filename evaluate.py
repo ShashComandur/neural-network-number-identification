@@ -33,7 +33,7 @@ x_test = tf.keras.utils.normalize(x_test, axis=1)
 # ---------------------------------------------------------------------------------------------------
 
 # train the model by running train.py
-os.chdir('neural-network-number-identification')
+os.chdir('neural-network-number-identification/neural-network-number-identification')
 os.system('python train.py')
 
 # load the model
