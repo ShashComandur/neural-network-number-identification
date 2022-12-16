@@ -10,11 +10,7 @@ This is the code that trains the number idenfication model.
 """
 
 # imports 
-import cv2                  # for loading and processing images
-import numpy as np          # for numpy arrays
-import matplotlib as plt    # for visualization of digits
 import tensorflow as tf     # for neural network structure
-import os
 
 # load dataset
 mnist = tf.keras.datasets.mnist
