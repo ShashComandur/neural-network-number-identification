@@ -11,10 +11,10 @@ The code that trains the model can be found in 'train.py'.
 """
 
 # imports 
-import cv2                  # for loading and processing images
-import numpy as np          # for numpy arrays
-import matplotlib.pyplot as plt    # for visualization of digits
-import tensorflow as tf     # for neural network structure
+import cv2                          # for loading and processing images
+import numpy as np                  # for numpy arrays
+import matplotlib.pyplot as plt     # for visualization of digits
+import tensorflow as tf             # for neural network structure
 import os
 
 # from train.py, just so that this script has access to the test data
